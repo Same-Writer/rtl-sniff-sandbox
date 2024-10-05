@@ -1,0 +1,5 @@
+rtl_433 -v -d 0 -s 1M -F kv -f 315.25M -M time -M protocol -M level -Y autolevel -Y squelch -Y auto -C customary | tee -a  ~/output.txt &
+sudo timedatectl set-timezone America/Los_Angeles
+cloner repos: rtl_433 + rtl-sdr
+
+
